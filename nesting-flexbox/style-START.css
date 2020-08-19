@@ -39,5 +39,31 @@ a:hover {
   list-style: none;
   margin: 0;
   padding: 0; 
+
+  display: flex;
+  border: 1px solid goldenrod;
 }
 
+.slider-nav li {
+  flex: 2;
+  display: flex;
+}
+.slider-nav .arrow {
+  flex: 1;
+}
+.slider-nav .arrow a{
+  font-size: 40px;
+}
+
+li a {
+  flex: 1;
+  display: flex;
+  padding:20px 5px;
+  align-items: center;
+}
+
+.slider-nav span{
+  display: block;
+  flex: 1;
+  text-align: center;
+}
